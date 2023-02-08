@@ -1,0 +1,48 @@
+h1 {
+
+    color: darkblue;
+    background-color: bisque;
+
+}
+
+h3 {
+
+    color: black;
+
+}
+
+body {
+
+    background-color: #f5da42;
+
+}
+
+#clearing {
+
+    font-size: 18px;
+
+}
+
+canvas {
+
+    background-color: white;
+    border-radius: 35px;
+    animation-name:color;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes color {
+
+    from{box-shadow: 1px 1px 50px purple;}
+    to{box-shadow: 1px 1px 40px orangered;}
+    to{box-shadow: 1px 1px 30px darkblue;}
+    
+}
+
+#show_sketch {
+
+    float: right;
+
+}
